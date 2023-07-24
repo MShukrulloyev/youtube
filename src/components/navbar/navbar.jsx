@@ -14,10 +14,10 @@ const Navbar = () => {
             sx={{ position: 'sticky', top: 0, zIndex: 999, background: colors.primary }}
         >
             <Link to={"/"}>
-                <img src={logo} alt="logo" height={30} />
+                <img className='logo' src={logo} alt="logo" height={50} />
             </Link>
             <SearchBar />
-            <Box />
+            <Box class='boxToNone' />
         </Stack>
     )
 }

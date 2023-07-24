@@ -61,11 +61,35 @@ a {
   width: 100% !important;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .search-bar {
-    width: 200px;
+    width: 80%;
   }
+
+  .boxToNone {
+    display: none;
+  }
+
   .react-player {
     height: 45vh !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .form {
+    width: 50%;
+    display: flex;
+  }
+
+  .search-bar {
+    width: 100%;
+  }
+
+  .logo {
+    height: 40px;
+  }
+
+  .form:focus-within {
+    width: 70%;
   }
 }

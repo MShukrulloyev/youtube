@@ -1,6 +1,6 @@
-import { Checkroom, DeveloperBoard, DeveloperMode, FaceRetouchingNatural, FitnessCenter, GraphicEq, Home, LiveTv, MusicNote, OndemandVideo, School, SportsEsports, TheaterComedy } from "@mui/icons-material";
+import { Checkroom, DeveloperMode, FaceRetouchingNatural, FitnessCenter, GraphicEq, Home, LiveTv, MusicNote, OndemandVideo, School, SportsEsports, TheaterComedy } from "@mui/icons-material";
 
-export const logo = 'https://media.graphassets.com/xdIRSn8OSb62Tv2l1og4';
+export const logo = "https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png";
 
 export const category = [
     { name: 'News', icon: <Home /> },
